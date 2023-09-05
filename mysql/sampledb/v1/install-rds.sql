@@ -20,7 +20,7 @@
 #
 #############################
 
-source ./schema/create_dms_sample.sql
+# source ./schema/create_dms_sample.sql
 
 #############################
 #
@@ -34,14 +34,14 @@ source ./schema/create_dms_sample.sql
 #
 #############################
 
-source ./user/create_dms_user.sql
-source ./user/dms_user_privileges.sql
+# source ./user/create_dms_user.sql
+# source ./user/dms_user_privileges.sql
 
 
 #############################
 # RDS Specific commands
 #############################
-call mysql.rds_set_configuration('binlog retention hours',8);
+# call mysql.rds_set_configuration('binlog retention hours',8);
 
 
 ############################
