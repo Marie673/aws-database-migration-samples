@@ -43,4 +43,5 @@ debut VARCHAR(30),
 yahoo_id MEDIUMINT,
 yahoo_name VARCHAR(30),
 yahoo_pos  VARCHAR(30),
-mlb_depth VARCHAR(30));
+mlb_depth VARCHAR(30)
+)　CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
