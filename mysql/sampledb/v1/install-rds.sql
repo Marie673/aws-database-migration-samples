@@ -20,7 +20,7 @@
 #
 #############################
 
-# source ./schema/create_dms_sample.sql
+source ./schema/create_dms_sample.sql
 
 #############################
 #
