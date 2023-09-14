@@ -21,9 +21,9 @@
 #
 ###############################
 use dms_sample
-# source ./schema/mlb_data.tab
-# source ./data/mlb_data.sql
-# commit;
+source ./schema/mlb_data.tab
+source ./data/mlb_data.sql
+commit;
 source ./schema/name_data.tab
 source ./data/name_data.sql
 commit;

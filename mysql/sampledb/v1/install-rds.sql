@@ -20,7 +20,7 @@
 #
 #############################
 
-# source ./schema/create_dms_sample.sql
+source ./schema/create_dms_sample.sql
 
 #############################
 #
@@ -34,8 +34,8 @@
 #
 #############################
 
-# source ./user/create_dms_user.sql
-# source ./user/dms_user_privileges.sql
+source ./user/create_dms_user.sql
+source ./user/dms_user_privileges.sql
 
 
 #############################
